@@ -1,4 +1,4 @@
-// import Layout from './components/Layout';
+import Layout from './components/Layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.scss';
 import Home from './components/Home';
@@ -14,11 +14,11 @@ function App() {
       <Sidebar />
       <Routes>
          
-        {/* <Route path='/' element={<Layout />} > */}
+        <Route path='/' element={<Layout />} >
           <Route index element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-        {/* </Route>        */}
+        </Route>       
       </Routes>
       <Route path='*' element={<ErrorPage />} /> 
     </Router>
