@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-    <Router >
+    <Router basename='ReactPTFDeplo/' >
       <Sidebar />      
       <Routes>        
         <Route path='/' element={<Layout />} >
