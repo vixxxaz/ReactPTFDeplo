@@ -29,10 +29,9 @@ const About = () => {
                 />
             </h1>
             <p>I'like spend time to code in every languages, to try to learn more technique.
-                I' m looking for every contract you can offer me to start my carrier 
-                it is a reconversion for me from tourism to it 
+                I' m looking for every contract you can offer me to start my carrier  
             </p>
-            <p>I m french, and i peak english. I have a lot of experience in comercial, customer service and tourism</p>
+            <p>I m french, and i speak english. I have a lot of experience in comercial, customer service and tourism</p>
             <p>feel free to contact me for any project you want  to create</p>
         </div>
 
