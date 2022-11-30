@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ReactPTFDeplo/static/css/main.070bf23c.css",
+    "main.js": "/ReactPTFDeplo/static/js/main.5cdccacd.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/coolvetica rg.otf": "/ReactPTFDeplo/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/La Belle Aurore.ttf": "/ReactPTFDeplo/static/media/La Belle Aurore.49df7e097cdf5c816ae2.ttf",
+    "static/media/HelveticaNeue.ttf": "/ReactPTFDeplo/static/media/HelveticaNeue.50a6cd509ab1a89a5956.ttf",
+    "static/media/logo-s.svg": "/ReactPTFDeplo/static/media/logo-s.8f97be37f1eddb3cf3bce9c8f2885bdf.svg",
+    "index.html": "/ReactPTFDeplo/index.html",
+    "main.070bf23c.css.map": "/ReactPTFDeplo/static/css/main.070bf23c.css.map",
+    "main.5cdccacd.js.map": "/ReactPTFDeplo/static/js/main.5cdccacd.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.070bf23c.css",
+    "static/js/main.5cdccacd.js"
+  ]
+}
