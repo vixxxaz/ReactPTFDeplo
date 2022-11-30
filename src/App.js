@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-    <Router basename='/'>
+    <Router >
       <Sidebar />      
       <Routes>        
         <Route path='/' element={<Layout />} >
