@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vixxxaz.gihub.io/",
+  "homepage": "https://vixxxaz.gihub.io",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
