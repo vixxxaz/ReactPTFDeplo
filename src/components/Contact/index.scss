@@ -77,12 +77,25 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+    @media (max-width:425px) {
+        right: 0;
+        width: 130px;
+    }
+    @media (max-width:425px) {
+        right: 0;
+        width: 89px;
+        font-size: 12px;
+    }
 
     span {
         font-size: 16px;
         display: block;
         padding: 20px;
         color: #ffd700;
+        @media (max-width:425px) {
+            display: none;
+
+        }
     }
 }
 
@@ -92,6 +105,9 @@
     float: right;
     width: 53%;
     height: 100%;
+    @media (max-width:425px) {
+        width: 40%;       
+    }
 }
 
 .leaflet-container {

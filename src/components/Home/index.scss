@@ -1,13 +1,22 @@
 .home-page{
 
-    .text-zone{
+    .text-zone {
         position: absolute;
         left:10%;
         top: 50%;
         transform: translateY(-50);
         width: 40%;
         max-height: 90%;
-        margin-left: 42px
+        margin-left: 42px;
+        @media (max-width: 1024px) {
+            left: 25%;
+        }
+        @media (max-width: 768px) {
+            left: 15%;
+        }
+        @media (max-width: 425px) {
+            left: 30%;
+        }
     }
 
     h1 {
@@ -16,6 +25,18 @@
         margin: 0;
         font-family:'Courier New', Courier, monospace;
         font-weight: 400;
+        @media (max-width: 1440px) {
+            font-size: 80px;
+        }
+        @media (max-width: 1024px) {
+            font-size: 50px;
+        }
+        @media (max-width: 768px) {
+            font-size: 45px;
+        }
+        @media (max-width: 425px) {
+            font-size: 20px;
+        }
 
         &::before{
             content: '<h1>';
