@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactPTFDeplo/static/css/main.3d3c1385.css",
-    "main.js": "/ReactPTFDeplo/static/js/main.36d80536.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/coolvetica rg.otf": "/ReactPTFDeplo/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
-    "static/media/La Belle Aurore.ttf": "/ReactPTFDeplo/static/media/La Belle Aurore.49df7e097cdf5c816ae2.ttf",
-    "static/media/HelveticaNeue.ttf": "/ReactPTFDeplo/static/media/HelveticaNeue.50a6cd509ab1a89a5956.ttf",
-    "static/media/logo-s.svg": "/ReactPTFDeplo/static/media/logo-s.8f97be37f1eddb3cf3bce9c8f2885bdf.svg",
-    "index.html": "/ReactPTFDeplo/index.html",
-    "main.3d3c1385.css.map": "/ReactPTFDeplo/static/css/main.3d3c1385.css.map",
-    "main.36d80536.js.map": "/ReactPTFDeplo/static/js/main.36d80536.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.be094512.css",
+    "main.js": "/static/js/main.7dea6bf8.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/coolvetica rg.otf": "/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/La Belle Aurore.ttf": "/static/media/La Belle Aurore.49df7e097cdf5c816ae2.ttf",
+    "static/media/HelveticaNeue.ttf": "/static/media/HelveticaNeue.50a6cd509ab1a89a5956.ttf",
+    "static/media/logo-s.svg": "/static/media/logo-s.8f97be37f1eddb3cf3bce9c8f2885bdf.svg",
+    "index.html": "/index.html",
+    "main.be094512.css.map": "/static/css/main.be094512.css.map",
+    "main.7dea6bf8.js.map": "/static/js/main.7dea6bf8.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3c1385.css",
-    "static/js/main.36d80536.js"
+    "static/css/main.be094512.css",
+    "static/js/main.7dea6bf8.js"
   ]
 }
