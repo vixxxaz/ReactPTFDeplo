@@ -53,7 +53,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I'm interested in all job in web developpement from freelance tous long term contract.
+                    I'm interested in all job in web developpement from freelance to long term contract.
                     Or if you have a request or a question, don't hesitate to contact me
                 </p>
                 <div className='contact-form'>

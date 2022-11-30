@@ -32,7 +32,7 @@ const About = () => {
                 I' m looking for every contract you can offer me to start my carrier  
             </p>
             <p>I m french, and i speak english. I have a lot of experience in comercial, customer service and tourism</p>
-            <p>feel free to contact me for any project you want  to create</p>
+            <p>feel free to contact me for any project you want to create</p>
         </div>
 
         <div className='stage-cube-cont'>
