@@ -22,15 +22,16 @@ const Home = () => {
    
   return (
     <>
-    <div className='container home-page'>
-        <div className='text-zone'>
+    <section className='container home-page'>
+        <article className='text-zone'>
             <h1>
+            <img src={LogoTitle} alt="developper" />
               <span className={{letterClass} }>H</span>
               <span className={`${letterClass} _12`}>i, </span>
               <br />
               <span className={`${letterClass} _13`}>I </span>
               <span className={`${letterClass} _14`}>'m </span>
-            <img src={LogoTitle} alt="developper" />
+              <br />           
             <AnimLetters 
               letterClass={letterClass}
               strArray={nameArray}
@@ -46,9 +47,9 @@ const Home = () => {
             <h2>full-stack developper / javascript / react / node/ express/ mongooDB / sass / </h2>
             <Link to='contact' className='flat-button'>CONTACT ME</Link>
             
-        </div>
+        </article>
         <Logo />
-    </div>
+    </section>
     <Loader type="pacman" />
     </>
   )

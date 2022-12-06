@@ -1,5 +1,4 @@
 import './index.scss'
-import logoS from '../../../assets/images/logo-s.svg'
 import { useRef } from 'react'
 
 
@@ -8,18 +7,18 @@ const Logo = () => {
 
   const bgRef = useRef();
   const outLineLogoRef = useRef();
-  const solidLogoRef = useRef();
+
 
   return (
     <div className='logo-container' ref={bgRef}>
-      <img ref={solidLogoRef} className='solid-logo' src={logoS} alt="logo" />
+     
 
       <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
           width="225.000000pt" height="225.000000pt" viewBox="0 0 225.000000 225.000000"
           preserveAspectRatio="xMidYMid meet">
 
           <g className='svg-container' transform="translate(0.000000,225.000000) scale(0.100000,-0.100000)"
-          fill="#ffd700" stroke="none">
+          fill="#0a0a0a" stroke="none">
           <path ref={outLineLogoRef} d="M970 2099 c-458 -57 -837 -362 -942 -759 -31 -117 -31 -318 1 -435
           64 -238 229 -447 467 -592 497 -302 1197 -190 1547 248 198 247 255 554 158
           844 -114 338 -442 605 -839 681 -98 19 -295 26 -392 13z m90 -309 l0 -170 -37

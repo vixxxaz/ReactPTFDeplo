@@ -2,7 +2,6 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimLetters from '../AnimLetters/index'
 import Loader from 'react-loaders'
-import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import Maps from '../Maps';

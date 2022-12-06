@@ -1,5 +1,5 @@
 .logo-container {
-    z-index: 0;
+    z-index: -10;
     width: 400px;
     height: 609px;
     position: absolute;
@@ -8,25 +8,17 @@
     bottom: 0;
     left: auto;
     margin: auto;
-    opacity:0 ;
+    opacity: 1;
+    @media (max-width: 830px) {
+        opacity: 0;
+
+    }
 
     svg {
         width: 100%;
         height: auto;
         bottom: 0;
         transform: rotateZ(30deg) !important;
-    }
-
-    .solid-logo {
-        position: absolute;
-        top: auto;
-        right: auto;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        opacity: 0;
-        transform: rotateZ(30deg);
-        z-index: 1;
     }
 
 }

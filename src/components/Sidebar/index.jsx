@@ -1,13 +1,13 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCode, faEnvelope, faHome, faLink, faUser} from '@fortawesome/free-solid-svg-icons';
-import LogoSubtitle from '../../assets/images/logo-sub.png';
+import {faCode, faEnvelope, faFolderOpen, faHome, faLink, faUser} from '@fortawesome/free-solid-svg-icons';
+import LogoSubtitle from '../../assets/images/logo-s.png';
 import React from 'react'
 
 const Sidebar = () => 
    
-<div className='nav-bar'>
+<section className='nav-bar'>
     <Link className='logo' to='/'>
         <img className='logo' src={LogoSubtitle} alt="Logo" />
     </Link>
@@ -15,9 +15,15 @@ const Sidebar = () =>
         <NavLink to='/' activeclassname="active">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
+      
+        <NavLink to='/project' activeclassname="active" className='project-link'>
+            <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
+        </NavLink>
+        
         <NavLink  to='/about' activeclassname="active" className="about-link">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
+
         <NavLink to='/contact' activeclassname="active" className="contact-link" >
             <FontAwesomeIcon icon={faEnvelope}  color="#4d4d4e" />
         </NavLink>
@@ -34,6 +40,6 @@ const Sidebar = () =>
             </a>
         </li>
     </ul>
-</div>
+</section>
   
 export default Sidebar
