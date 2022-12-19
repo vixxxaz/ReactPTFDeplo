@@ -27,3 +27,13 @@
     stroke: #ffd700;
     stroke-width: 20;
 }
+.g{
+    paint-order: fill markers stroke;
+}
+.path {
+    paint-order: fill markers stroke;
+}
+#logo-size {
+    width: 400px;
+    height: 400px;
+}

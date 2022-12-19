@@ -8,6 +8,7 @@
     min-height: 500px;
     @media (max-width: 425px) {
         width: 36px;
+        height: 2200px;
     }
 
     .logo {
@@ -79,7 +80,7 @@
 
             &:first-child {
                 &::after {
-                    content: 'HOME'
+                    content: 'home'
                 }
             }
         }
@@ -92,13 +93,13 @@
         
         a.about-link {
             &:after {
-                content: 'ABOUT';
+                content: 'about';
             }
         }
 
         a.contact-link {
             &:after {
-                content: 'CONTACT';
+                content: 'contact';
             }
         }
 
@@ -130,9 +131,38 @@
 
                 &:hover svg {
                     color: #ffd700;
+                    svg {
+                    opacity: 0;
+                    }
+
+                    &:after {
+                    opacity: 1;
+                    }
+                }
+                &:after {
+                    content: '';
+                    font-size: 9px;
+                    letter-spacing: 2px;
+                    position: absolute;
+                    bottom: 0;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all 0.3s ease-out;
+                }
+                &:first-child {
+                    &::after {
+                        content: 'linkedin'
+                    }
+                }
+                .github-link {
+                    &:after {
+                        content: 'github';
+                    }
                 }
             }
-
+            
         }
 
     }

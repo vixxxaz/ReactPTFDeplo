@@ -30,12 +30,12 @@ const Sidebar = () =>
     </nav>
     <ul>
         <li>
-            <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/vincent-gardet-6a8920235/'>
-                <FontAwesomeIcon icon={ faLink } color="#4d4d4e" />
+            <a target="_blank" activeclassname="active" className='linkedin-link' rel="noreferrer" href='https://www.linkedin.com/in/vincent-gardet-6a8920235/'>
+                <FontAwesomeIcon icon={ faLink } color="#4d4d4e" /> 
             </a>
         </li>
-        <li>
-            <a target="_blank" rel="noreferrer" href='https://github.com/vixxxaz'>
+        <li >
+            <a target="_blank" activeclassname="active" className="github-link"  rel="noreferrer" href='https://github.com/vixxxaz'>
                 <FontAwesomeIcon icon={ faCode } color="#4d4d4e" />
             </a>
         </li>
