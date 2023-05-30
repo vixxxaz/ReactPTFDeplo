@@ -47,8 +47,13 @@
     width: 50%;
     justify-content: space-around;
     gap: 10px;
+    transition: transform 8s;
 }
 
+.card-container :hover {
+    transform: scale(0.9);
+    -ms-transform: scale(0.9);   
+}
 
 .card-link{
   text-decoration: none;    
@@ -69,6 +74,7 @@
     background-color: lighten( #022c43,  40%);
     justify-content: space-around;
 }
+
 
 .image-project{
     width: 150px;

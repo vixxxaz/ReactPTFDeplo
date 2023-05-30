@@ -3,7 +3,7 @@ import AnimLetters from '../AnimLetters/index'
 import Loader from 'react-loaders'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook, faAreaChart, faDeaf, faFaceAngry, faGuitar, faTShirt } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook, faAreaChart, faDeaf, faFaceLaugh, faGuitar, faTShirt } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -44,7 +44,7 @@ const About = () => {
                     <FontAwesomeIcon icon={faAddressBook} color='#F06229' />
                 </div>
                 <div className='face3'>
-                    <FontAwesomeIcon icon={faFaceAngry} color='#044712' />
+                    <FontAwesomeIcon icon={faFaceLaugh} color='#044712' />
                 </div>
                 <div className='face4'>
                     <FontAwesomeIcon icon={faGuitar} color='#351374' />
