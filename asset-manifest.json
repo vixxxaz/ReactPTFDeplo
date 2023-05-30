@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactPTFDeplo/static/css/main.145507cf.css",
-    "main.js": "/ReactPTFDeplo/static/js/main.8c4d6fdd.js",
+    "main.css": "/ReactPTFDeplo/static/css/main.4c04ff62.css",
+    "main.js": "/ReactPTFDeplo/static/js/main.17763ad0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js",
     "static/media/coolvetica rg.otf": "/ReactPTFDeplo/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
     "static/media/La Belle Aurore.ttf": "/ReactPTFDeplo/static/media/La Belle Aurore.49df7e097cdf5c816ae2.ttf",
     "static/media/HelveticaNeue.ttf": "/ReactPTFDeplo/static/media/HelveticaNeue.50a6cd509ab1a89a5956.ttf",
     "static/media/groupo.png": "/ReactPTFDeplo/static/media/groupo.5e5204e38ca40e4aaf8b.png",
+    "static/media/logo-s.png": "/ReactPTFDeplo/static/media/logo-s.760d3a1ebba3948f5ed1.png",
     "index.html": "/ReactPTFDeplo/index.html",
-    "main.145507cf.css.map": "/ReactPTFDeplo/static/css/main.145507cf.css.map",
-    "main.8c4d6fdd.js.map": "/ReactPTFDeplo/static/js/main.8c4d6fdd.js.map",
+    "main.4c04ff62.css.map": "/ReactPTFDeplo/static/css/main.4c04ff62.css.map",
+    "main.17763ad0.js.map": "/ReactPTFDeplo/static/js/main.17763ad0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/ReactPTFDeplo/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.145507cf.css",
-    "static/js/main.8c4d6fdd.js"
+    "static/css/main.4c04ff62.css",
+    "static/js/main.17763ad0.js"
   ]
 }
